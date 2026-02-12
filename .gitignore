@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (excluding public financial reports which can be committed)
+# data/sample_pdfs/*.pdf
+# data/images/*.png
+# data/images/*.jpg
+# data/uploads/*.png
+# data/uploads/*.jpg
+
+# Architecture diagrams (proprietary)
+docs/architecture.md
+
+# Logs
+logs/
+*.log
+
+# Evaluation Results
+evaluation/results.json
+evaluation/traces/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml

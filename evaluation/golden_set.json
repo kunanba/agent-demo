@@ -1,0 +1,107 @@
+[
+  {
+    "category": "factual_retrieval",
+    "question": "What was the total revenue for Q1 2026?",
+    "instructions": "Apple Q1 2026 revenue from documents",
+    "requires_retrieval": true,
+    "requires_calculation": false,
+    "expected_keywords": [
+      "143",
+      "756",
+      "billion",
+      "revenue",
+      "December 27, 2025"
+    ],
+    "expected_answer": "The total revenue (net sales) for Apple Inc. in Q1 2026 (three months ended December 27, 2025) was $143,756 million (or $143.76 billion)",
+    "id": 1
+  },
+  {
+    "category": "calculation",
+    "question": "Calculate the profit margin if net income was $50 million and revenue was $200 million.",
+    "expected_answer": "25%",
+    "instructions": "This is a pure calculation - answer should always be 25%",
+    "requires_retrieval": false,
+    "requires_calculation": true,
+    "id": 2
+  },
+  {
+    "category": "factual_retrieval",
+    "question": "What were the main risk factors mentioned?",
+    "instructions": "After running against your docs, list the actual risk factors as expected_keywords",
+    "requires_retrieval": true,
+    "requires_calculation": false,
+    "expected_keywords": [
+      "macroeconomic",
+      "economic conditions",
+      "international operations",
+      "supply chain",
+      "geopolitical risks"
+    ],
+    "id": 3
+  },
+  {
+    "category": "comparison",
+    "question": "Compare revenue between 2024 and 2025",
+    "instructions": "Replace with actual periods from your documents",
+    "requires_retrieval": true,
+    "requires_calculation": true,
+    "expected_answer": "$391.04 billion (2024) vs. $416.16 billion (2025).",
+    "id": 4
+  },
+  {
+    "category": "factual_retrieval",
+    "question": "What were the operating expenses?",
+    "instructions": "After running, add the actual value to expected_keywords",
+    "requires_retrieval": true,
+    "requires_calculation": false,
+    "expected_answer": "Apple's annual operating expenses for the fiscal year 2025 were approximately $283.111 billion, which represents a 5.71% increase from 2024.",
+    "id": 5
+  },
+  {
+    "category": "calculation",
+    "question": "What is the current ratio if current assets are $150M and current liabilities are $100M?",
+    "expected_answer": "1.5",
+    "instructions": "Pure calculation - answer is always 1.5",
+    "requires_retrieval": false,
+    "requires_calculation": true,
+    "id": 6
+  },
+  {
+    "category": "factual_retrieval",
+    "question": "Which business segments contributed most to revenue?",
+    "instructions": "Add actual segment names from your docs to expected_keywords",
+    "requires_retrieval": true,
+    "requires_calculation": false,
+    "expected_answer": "iPhone, Services, Wearables, Mac, iPad",
+    "id": 7
+  },
+  {
+    "category": "calculation",
+    "question": "What is the growth rate from $180M to $220M?",
+    "expected_answer": "22.22%",
+    "instructions": "Pure calculation",
+    "requires_retrieval": false,
+    "requires_calculation": true,
+    "id": 8
+  },
+  {
+    "category": "summarization",
+    "question": "Summarize the key financial highlights",
+    "instructions": "After running, add key terms that should appear in the summary",
+    "requires_retrieval": true,
+    "requires_calculation": false,
+    "expected_answer": "Record Fiscal Year Revenue: Apple reached a record $416 billion in revenue for the full 2025 fiscal year, marking a 6.43% increase over 2024. Strong Earnings Growth: The company achieved double-digit Earnings Per Share (EPS) growth for the year. Record Q4 Results: In the September quarter (Q4 2025), Apple reported $102.5 billion in revenue, up 8% year-over-year, exceeding analyst expectations. Record-Breaking Q1 2026 (Dec '25): The holiday quarter (ended Dec 27, 2025) saw $143.8 billion in revenue, a 16% increase year-over-year, setting a new all-time record, with EPS growing 19%. Capital Return: For the full fiscal year 2025, Apple returned $106.1 billion to shareholders, including $90.7 billion in share buybacks and $15.4 billion in dividends.",
+    "id": 9
+  },
+  {
+    "category": "vision",
+    "question": "Analyze the stockprice_1y.png chart and describe the yearly trend of Apple stock prices",
+    "instructions": "Uses data/uploads/stockprice_1y.png - should describe yearly stock price trend",
+    "requires_retrieval": false,
+    "requires_calculation": false,
+    "requires_vision": true,
+    "image_path": "data/uploads/stockprice_1y.png",
+    "expected_answer": "The chart shows Apple's stock price trend over one year, including key movements, overall direction (upward/downward trend), volatility periods, and approximate price range",
+    "id": 10
+  }
+]
