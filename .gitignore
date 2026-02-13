@@ -29,7 +29,7 @@ build/
 # data/uploads/*.jpg
 
 # Architecture diagrams (proprietary)
-docs/architecture.md
+docs/
 
 # Logs
 logs/
