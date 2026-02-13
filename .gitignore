@@ -33,6 +33,7 @@ docs/*.md
 docs/PRESENTATION_GUIDE.md
 docs/deployment.md
 docs/archicture.md
+*.pptx
 
 # Logs
 logs/
