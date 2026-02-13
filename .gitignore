@@ -28,8 +28,11 @@ build/
 # data/uploads/*.png
 # data/uploads/*.jpg
 
-# Architecture diagrams (proprietary)
+# Architecture diagrams
 docs/*.md
+docs/PRESENTATION_GUIDE.md
+docs/deployment.md
+docs/archicture.md
 
 # Logs
 logs/
